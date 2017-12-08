@@ -1,6 +1,4 @@
 import React from 'react';
-
-// Import the calendarheatmap
 import CalendarHeatmap from 'react-calendar-heatmap';
 
 export default class HeatmapCalendar extends React.Component {
@@ -28,7 +26,7 @@ export default class HeatmapCalendar extends React.Component {
 
     onClick(props) {
         let date = props.date.toString().split(' ')[2]
-        console.log(date);
+        console.log(props);
     }
 
     render() {
