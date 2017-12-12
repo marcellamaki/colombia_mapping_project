@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cal-heatmap": "^3.6.2",
-    "calendar-heatmap-mini": "^1.2.0",
+    "axios": "^0.17.1",
+    "i18n-iso-countries": "^3.3.0",
+    "leaflet": "^1.2.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-calendar-heatmap": "^1.6.2",
     "react-datepicker": "^0.61.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "0.9.5"
+    "react-google-charts": "^1.5.5",
+    "react-leaflet": "^1.7.7",
+    "react-redux": "^5.0.6",
+    "react-scripts": "0.9.5",
+    "react-yearly-calendar": "^1.1.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,5 +26,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

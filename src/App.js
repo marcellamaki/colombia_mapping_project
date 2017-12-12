@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import HeatmapCalendar from "./CalendarHeatmap.js"
+// import {connect} from 'react-redux'
+import MyMap from "./components/MyMap.jsx"
+import YearlyCalendar from "./YearlyCalendar.js"
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-         <HeatmapCalendar />
-        </div>
+      <div>
+        <MyMap />
+        {/* <YearlyCalendar /> */}
+      </div>
     );
   }
 }
